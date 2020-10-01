@@ -1,0 +1,56 @@
+#This plugin requires Vault.
+
+#Add all groups that will show up on execute.
+Groups:
+  Owner:
+    prefix: '  &8» &7[&4Owner&7] &f» '
+    suffix: '&e{playersOnline} &7logged onto &bFactions'
+    suffixNone: '&cN/A'
+    splitter: '&7, &e'
+  Administrator:
+    prefix: '  &8» &7[&9Administrator&7] &f» '
+    suffix: '&a{playersOnline} &7logged onto &bFactions'
+    suffixNone: '&cN/A'
+    splitter: '&7, &a'
+  Moderator:
+    prefix: '  &8» &7[&aModerator&7] &f» '
+    suffix: '&b{playersOnline} &7logged onto &bFactions'
+    suffixNone: '&cN/A'
+    splitter: '&7, &b'
+  Helper:
+    prefix: '  &8» &7[&bHelper&7] &f» '
+    suffix: '&d{playersOnline} &7logged onto &bFactions'
+    suffixNone: '&cN/A'
+    splitter: '&7, &d'
+
+
+#You use {GroupName} or {allGroups}, {allGroups} will print out all groups and {GroupName} will only print out certain groups.
+List:
+  - '&8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+  - '  &8» &7&oNeed assistance? Contact a staff member below!'
+  - ''
+  - '{allGroups}'
+  - '&8▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+  
+#All the commands to execute the list, You may add more or change them.
+commands:
+  - list
+  - 'essentials:list'
+  - elist
+  - 'essentials:elist'
+  - online
+  - 'essentials:online'
+  - eonline
+  - 'essentials:eonline'
+  - playerlist
+  - 'essentials:playerlist'
+  - eplayerlist
+  - 'essentials:eplayerlist'
+  - plist
+  - 'essentials:plist'
+  - eplist
+  - 'essentials:eplist'
+  - who
+  - 'essentials:who'
+  - ewho
+  - 'essentials:ewho'
